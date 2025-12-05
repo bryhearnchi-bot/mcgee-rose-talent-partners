@@ -149,9 +149,9 @@ export default function HomePage() {
                       </div>
                     ))}
                   </div>
-                  <div className="text-brand-navy font-bold text-sm md:text-base">+500 Placed</div>
+                  <div className="text-brand-navy font-bold text-sm md:text-base">15+ Years</div>
                 </div>
-                <p className="text-[10px] md:text-xs text-brand-navy/60">Join our network of successful placements.</p>
+                <p className="text-[10px] md:text-xs text-brand-navy/60">Of recruiting expertise at your service.</p>
               </div>
             </motion.div>
           </div>

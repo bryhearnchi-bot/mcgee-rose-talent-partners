@@ -113,8 +113,8 @@ export default function CandidatesPage() {
                     <Heart className="w-6 h-6 text-brand-red" />
                   </div>
                   <div>
-                    <div className="font-bold text-brand-navy">98% Satisfaction</div>
-                    <div className="text-sm text-brand-navy/60">from placed candidates</div>
+                    <div className="font-bold text-brand-navy">15+ Years</div>
+                    <div className="text-sm text-brand-navy/60">of recruiting expertise</div>
                   </div>
                 </div>
               </div>

@@ -31,22 +31,10 @@ const values = [
 
 const team = [
   {
-    name: "Rose McGee",
-    role: "Founder & CEO",
-    bio: "With over 15 years in talent acquisition, Rose founded McGee Rose Talent Partners to bring a more personal, boutique approach to recruiting.",
+    name: "Jenn Young",
+    role: "Founder & Principal",
+    bio: "With over 15 years of recruiting experience, Jenn founded McGee Rose Talent Partners in 2024 to bring a more personal, boutique approach to talent acquisition. Her deep industry relationships and human-first philosophy set the foundation for lasting partnerships.",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
-  },
-  {
-    name: "Michael Chen",
-    role: "Senior Recruiter",
-    bio: "Michael specializes in technology and engineering placements, with a passion for connecting innovative talent with cutting-edge companies.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-  },
-  {
-    name: "Sarah Thompson",
-    role: "Client Success Manager",
-    bio: "Sarah ensures every client relationship thrives, overseeing partnerships from initial engagement through successful placements.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
   },
 ];
 
@@ -121,18 +109,19 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-brand-navy/80 leading-relaxed">
                 <p>
-                  After years working at large recruiting agencies, our founder Rose McGee saw a gap in the industry. 
-                  Candidates were being treated like commodities, and companies were receiving stacks of resumes 
-                  that didn&apos;t truly fit their needs.
+                  After 15+ years working in talent acquisition at major recruiting firms, our founder Jenn Young 
+                  saw a gap in the industry. Candidates were being treated like commodities, and companies were 
+                  receiving stacks of resumes that didn&apos;t truly fit their needs.
                 </p>
                 <p>
-                  In 2018, she launched McGee Rose Talent Partners with a mission to change that. We take fewer 
+                  In 2024, she launched McGee Rose Talent Partners with a mission to change that. We take fewer 
                   clients, spend more time understanding each role, and only present candidates we genuinely 
                   believe will thrive.
                 </p>
                 <p>
-                  Today, we&apos;re proud to have helped hundreds of professionals find careers they love and 
-                  dozens of companies build teams that drive their success forward.
+                  Backed by over a decade and a half of recruiting expertise, deep industry relationships, and 
+                  a track record of successful placements, McGee Rose brings enterprise-level experience with 
+                  a boutique, personalized approach.
                 </p>
               </div>
             </div>
@@ -178,12 +167,12 @@ export default function AboutPage() {
               The people behind <br /> McGee Rose
             </SectionHeading>
             <p className="text-brand-navy/70 text-lg">
-              Our small but mighty team brings decades of combined recruiting experience and a shared passion 
+              With 15+ years of recruiting experience, Jenn brings a wealth of knowledge and genuine passion 
               for connecting great people with great opportunities.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="max-w-md mx-auto">
             {team.map((member, index) => (
               <motion.div
                 key={index}

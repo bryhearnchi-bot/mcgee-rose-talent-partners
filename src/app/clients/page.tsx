@@ -45,10 +45,10 @@ const industries = [
 ];
 
 const stats = [
-  { value: "500+", label: "Successful Placements" },
-  { value: "95%", label: "Retention Rate" },
-  { value: "21", label: "Days Avg. Time to Fill" },
-  { value: "100%", label: "Client Satisfaction" },
+  { value: "15+", label: "Years Experience" },
+  { value: "100%", label: "Personalized Service" },
+  { value: "Deep", label: "Industry Networks" },
+  { value: "2024", label: "Founded" },
 ];
 
 export default function ClientsPage() {
