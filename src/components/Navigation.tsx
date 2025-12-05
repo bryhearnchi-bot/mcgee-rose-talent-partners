@@ -56,7 +56,7 @@ export function Navigation() {
       <nav
         className={cn(
           "fixed top-0 w-full z-50 transition-all duration-500 px-4 md:px-8 py-4",
-          scrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent"
+          scrolled ? "bg-white/95 backdrop-blur-md shadow-sm py-3" : "bg-white/80 backdrop-blur-sm"
         )}
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
