@@ -34,7 +34,7 @@ const team = [
     name: "Jenn Young",
     role: "Founder & Principal",
     bio: "With over 15 years of recruiting experience, Jenn founded McGee Rose Talent Partners in 2024 to bring a more personal, boutique approach to talent acquisition. Her deep industry relationships and human-first philosophy set the foundation for lasting partnerships.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80",
+    image: "/jenn-about.jpeg",
   },
 ];
 
@@ -95,8 +95,8 @@ export default function AboutPage() {
               <div className="absolute -inset-4 bg-brand-red/10 rounded-[3rem] rotate-3 -z-10" />
               <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=800&q=80"
-                  alt="Team collaboration"
+                  src="/jenn-main.jpeg"
+                  alt="Jenn Young"
                   className="w-full h-full object-cover"
                 />
               </div>

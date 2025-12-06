@@ -102,8 +102,8 @@ export default function CandidatesPage() {
             >
               <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
-                  alt="Professionals collaborating"
+                  src="/candidate.jpg"
+                  alt="Handshake"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -197,8 +197,8 @@ export default function CandidatesPage() {
               <div className="absolute -inset-4 bg-brand-yellow/20 rounded-[3rem] rotate-3 -z-10" />
               <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?auto=format&fit=crop&w=800&q=80"
-                  alt="Professional success"
+                  src="/partner.webp"
+                  alt="Career partnership"
                   className="w-full h-full object-cover"
                 />
               </div>

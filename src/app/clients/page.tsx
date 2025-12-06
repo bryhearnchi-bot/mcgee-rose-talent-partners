@@ -114,7 +114,7 @@ export default function ClientsPage() {
             >
               <div className="aspect-square rounded-[3rem] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?auto=format&fit=crop&w=800&q=80"
+                  src="/clients.jpeg"
                   alt="Business team meeting"
                   className="w-full h-full object-cover"
                 />
@@ -198,8 +198,8 @@ export default function ClientsPage() {
               <div className="absolute -inset-4 bg-brand-red/10 rounded-[3rem] -rotate-3 -z-10" />
               <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
-                  alt="Modern office space"
+                  src="/across.jpg"
+                  alt="Industries we serve"
                   className="w-full h-full object-cover"
                 />
               </div>

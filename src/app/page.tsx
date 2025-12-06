@@ -46,9 +46,9 @@ export default function HomePage() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const heroImages = [
-    "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+    "/rotate1.jpeg",
+    "/rotate2.jpg",
+    "/rotate3.jpg",
   ];
 
   useEffect(() => {
@@ -164,11 +164,11 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="relative order-2 md:order-1">
               <div className="absolute -inset-4 bg-brand-teal-light/20 rounded-[3rem] rotate-3 -z-10" />
-              <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
+              <div className="rounded-[2.5rem] overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80"
-                  alt="Professional woman smiling"
-                  className="w-full h-full object-cover"
+                  src="/infographic.png"
+                  alt="McGee Rose Infographic"
+                  className="w-full h-auto"
                 />
               </div>
               <div className="absolute -bottom-10 -right-10 bg-brand-cream p-6 rounded-full shadow-xl animate-bounce-slow">
