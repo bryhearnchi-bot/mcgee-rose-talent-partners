@@ -164,11 +164,11 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="relative order-2 md:order-1">
               <div className="absolute -inset-4 bg-brand-teal-light/20 rounded-[3rem] rotate-3 -z-10" />
-              <div className="rounded-[2.5rem] overflow-hidden shadow-2xl">
+              <div className="aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-2xl">
                 <img
                   src="/infographic.png"
                   alt="McGee Rose Infographic"
-                  className="w-full h-auto"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div className="absolute -bottom-10 -right-10 bg-brand-cream p-6 rounded-full shadow-xl animate-bounce-slow">
